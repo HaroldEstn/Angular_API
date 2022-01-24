@@ -1,0 +1,22 @@
+.main {
+  background-color: #29293d;
+  margin: 0 auto;
+  max-width: 1000px;
+  min-height: 100vh;
+}
+
+.header {
+  color: #cc1111;
+}
+
+.nombre {
+  color: #881111;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.especie, .genero, .origen {
+  color: #aaaaaa;
+}
+

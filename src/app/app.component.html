@@ -1,0 +1,16 @@
+<div class="main">
+  <div class="header">
+    <h1>RICK AND MORTY CHARACTERS</h1>
+    <h3>API</h3>
+  </div>
+  <div *ngFor="let character of charactersList">  
+    <div class="nombre">{{ character.name }}</div>    <br>
+    <div class="imagen"><img src="{{ character.image }}" alt="rick & morty character {{ character.name }}"></div> 
+    <div class="especie"><b>Specie: </b>{{ character.species }}</div>    <br>
+    <div class="genero"><b>Gender: </b>{{ character.gender }}</div>    <br>
+    <div class="origen"><b>Origin: </b>{{ character.origin.name }}</div>    <br>
+    <hr>
+  </div>
+  <footer>Harold Gamboa. used API <a href="https://rickandmortyapi.com/">https://rickandmortyapi.com/</a></footer>
+</div>
+
